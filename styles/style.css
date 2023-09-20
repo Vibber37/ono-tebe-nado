@@ -1,4 +1,4 @@
-body {
+.body {
   width: 1440px;
   margin: auto;
   font-family: Raleway, sans-serif;
@@ -36,7 +36,8 @@ body {
 }
 
 .header__links-list-item {
-  border-bottom: 1px solid black;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 .header__logo-image {
@@ -56,13 +57,11 @@ body {
 }
 
 .phone_number {
-  text-decoration: none;
-  border-bottom: 1px solid black;
+  text-underline-offset: 4px;
 }
 
 .mail { 
-  text-decoration: none;
-  border-bottom: 1px solid black;
+  text-underline-offset: 4px;
 } 
 
 .overlay {
@@ -79,7 +78,7 @@ body {
 .overlay_title {
   display: flex;
   flex-direction: column;
-  padding: 161px 50px 126px 50px;
+  padding: 161px 50px 135px 50px;
   position: relative;
   font-size: 100px;
   font-style: normal;
@@ -104,35 +103,42 @@ body {
 
 .letter_o {
   letter-spacing: 30px;
+  line-height: 115%;
 }
 
 .letters_no {
   letter-spacing: 60px;
+  line-height: 115%;
 }
 
 .letters_te {
   letter-spacing: 30px;
   text-align: center;
+  line-height: 100%;
 }
 
 .letters_be {
   letter-spacing: 60px;
+  line-height: 100%;
 }
 
 .letter_n {
   letter-spacing: 60px;
   text-align: end;
+  line-height: 100%;
 }
 
 .letters_ad {
   letter-spacing: 30px;
+  line-height: 100%;
 }
 
 .letter_o_end {
   letter-spacing: 0;
+  line-height: 100%;
 }
 
-.g {
+.cover__description {
   display: flex;
   justify-content: flex-end;
   gap: 78px;
@@ -266,7 +272,7 @@ body {
   width: 1340px;
   margin: 183px 50px 180px;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 430px 2fr;
   column-gap: 25px;
 }
 
@@ -311,8 +317,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
-  padding: 0 50px 96px;
+  padding: 0 50px 90px;
   width: 100%;
 }
 
@@ -330,11 +335,11 @@ body {
 
 .footer__menu-list {
   text-align: center;
+  font-size: 18px;
 }
 
 .footer__menu-link {
-  text-decoration: none;
-  border-bottom: 1px solid black;
+  text-underline-offset: 4px;;
 }
 
 .footer__menu-list-item {
